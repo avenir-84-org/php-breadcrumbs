@@ -5,7 +5,7 @@ function f1() {
 }
 
 function brak($s) {
-    return "[" + $s + "]";
+    return "[" . $s ; "]";
 }
 
 ?>
