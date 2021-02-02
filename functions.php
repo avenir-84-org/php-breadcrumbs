@@ -26,7 +26,10 @@ function t($n) {
 
 function pairwise($n) {
     // Your code here
-    
+    if ($n % 2 == 0) {
+        return ".";
+    }
+    return "|";
 }
 
 ?>
