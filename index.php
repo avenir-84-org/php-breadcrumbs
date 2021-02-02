@@ -10,8 +10,8 @@ echo r(7) . "\n";
 
 // Modifier la fonction t dans functions.php
 // pour que les lignes suivantes produisent.
-// "[---]"
-// "[-----]"
+// "[[---]]"
+// "[[-----]]"
 // La nouvelle fonction doit réutiliser la
 // fonction brak obligatoirement.
 // Les deux lignes suivantes ne doivent pas

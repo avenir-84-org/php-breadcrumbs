@@ -21,7 +21,7 @@ function t($n) {
     for ($i = 0; $i < $n; ++$i) {
         $out .= "-";
     }
-    return $out;
+    return brak($out);
 }
 
 ?>
