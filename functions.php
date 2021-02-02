@@ -5,7 +5,7 @@ function f1() {
 }
 
 function brak($s) {
-    return "[[" . $s . "]]";
+    return "[" . $s . "]";
 }
 
 function r($n) {
@@ -21,7 +21,12 @@ function t($n) {
     for ($i = 0; $i < $n; ++$i) {
         $out .= "-";
     }
-    return brak($out);
+    return brak(brak($out));
+}
+
+function pairwise($n) {
+    // Your code here
+    
 }
 
 ?>
