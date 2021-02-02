@@ -16,4 +16,12 @@ function r($n) {
     return $out;
 }
 
+function t($n) {
+    $out = "";
+    for ($i = 0; $i < $n; ++$i) {
+        $out .= "-";
+    }
+    return $out;
+}
+
 ?>

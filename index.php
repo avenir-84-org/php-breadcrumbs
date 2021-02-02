@@ -8,12 +8,16 @@ echo brak("v") . "\n";
 echo r(3) . "\n";
 echo r(7) . "\n";
 
-// Ecrire deux lignes qui vont afficher respectivement:
-// "---"
-// "-----"
-// Ces deux lignes ne peuvent comporter qu'un
-// seul caractère "-" chacune.
-// Vous devez pour cela rajouter une fonction
-// dans functions.php et l'utiliser.
+// Modifier la fonction t dans functions.php
+// pour que les lignes suivantes produisent.
+// "[---]"
+// "[-----]"
+// La nouvelle fonction doit réutiliser la
+// fonction brak obligatoirement.
+// Les deux lignes suivantes ne doivent pas
+// être modifiées.
+echo t(3) . "\n";
+echo t(5) . "\n";
+
 
 ?>
